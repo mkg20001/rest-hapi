@@ -64,7 +64,7 @@
     "joi": "^14.0.0",
     "joi-objectid": "^2.0.0",
     "lodash": "~4.17.11",
-    "loggin": "^3.0.1",
+    "loggin": "github:mkg20001/loggin#patches",
     "mkdirp": "0.5.1",
     "mongoose": "^5.3.4",
     "mrhorse": "^3.0.1",
