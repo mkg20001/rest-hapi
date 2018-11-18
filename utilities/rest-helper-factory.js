@@ -19,7 +19,7 @@ module.exports = function(logger, mongoose, server) {
 
   let headersValidation
 
-  if (config.authStrategy) {
+  if (config.authStrategy && !config.ignoreAuthHeader) {
     headersValidation = Joi.object({
       authorization: Joi.string().required()
     }).options({ allowUnknown: true })
